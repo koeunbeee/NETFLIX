@@ -9,6 +9,8 @@
 .video-poster {
   width: 130px;
   height: 190px;
+  transition: all 0.3s;
+  transform: scale(1);
 }
 
 .video {
@@ -17,7 +19,6 @@
 }
 
 .video-poster:hover {
-  transition: opacity 0.7;
   transform: scale(1.1);
 }
 
