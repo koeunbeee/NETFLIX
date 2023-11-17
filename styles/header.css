@@ -1,0 +1,28 @@
+.header {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 200;
+}
+.header-icon {
+  padding: 2px;
+  margin: 2px;
+}
+
+.netflix-logo {
+  width: 80px;
+}
+
+.my-account {
+  padding: 2px;
+  margin: 2px;
+}
+
+.accountimg {
+  width: 35px;
+}
